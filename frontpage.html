@@ -2,15 +2,18 @@
 
 <html lang="en" dir="ltr">
   <head>
-    <meta charset="utf-8">
+    <meta charset="utf-8" />
     <title>SwishHoops</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="page.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="page.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+    />
   </head>
   <body>
     <nav>
-      <input type="checkbox" id="check">
+      <input type="checkbox" id="check" />
       <label for="check" class="checkbtn">
         <i class="fas fa-bars"></i>
       </label>
@@ -22,20 +25,46 @@
       </ul>
     </nav>
     <section>
-      <div class="top--players">
-        <h2>Top</h2>
-        <h2></h2>
+      <div style="margin-top: 20px">
         <div class="grid">
-          <div class="jaylen--brown">
-            <h2>Jaylen Brown</h2>
-          </div>
-          <div class="luka--doncic">
-            <h2>Luka Doncic</h2>
-          </div>
+          <div class="player-stats">
+            <div class="flex-container" style="gap: 40px">
+              <img
+                src="https://a.espncdn.com/combiner/i?img=/i/headshots/nba/players/full/3917376.png&w=350&h=254"
+                style="
+                  height: auto;
+                  width: 50%;
+                  padding: 5px;
+                  margin-bottom: 25px;
+                "
+              />
+              <h2>Jaylen Brown</h2>
+            </div>
+            <div
+              class="flex-container"
+              style="
+                margin-left: 1.2em;
+                margin-right: 1.2em;
+                font-size: 22px;
+                margin-top: 15px;
+              "
+            >
+              <div>
+                <p style="text-decoration: underline"><b>PTS</b></p>
+                <p><b>20.8</b></p>
+              </div>
+              <div>
+                <p style="text-decoration: underline"><b>REB</b></p>
+                <p><b>5.4</b></p>
+              </div>
+              <div>
+                <p style="text-decoration: underline"><b>AST</b></p>
+                <p><b>5.0</b></p>
+              </div>
+            </div>
           </div>
         </div>
       </div>
     </section>
   </body>
 </html>
-

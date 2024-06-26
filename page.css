@@ -101,6 +101,24 @@
     height: calc(100vh - 80px);
   }
 
+  .player-stats {
+    background-color: #4A525A;
+    margin-left: 50px;
+    width: 25%;
+    border-radius: 7px;
+    color: rgb(209, 207, 207);
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+
+  .flex-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  
+
   
 
 
